@@ -1,0 +1,74 @@
+
+/* =================================
+   BRANDFORGE AI - SIMPLE ORIGINAL CSS
+================================= */
+
+.stApp {
+    background: linear-gradient(135deg, #0b1020, #15112b);
+    color: #f5f3ff;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+/* SIDEBAR */
+
+[data-testid="stSidebar"] {
+    background: #15152d;
+    border-right: 1px solid #38305c;
+}
+
+/* CHAT MESSAGES */
+
+[data-testid="stChatMessage"] {
+    background: #1c1b32;
+    border: 1px solid #38305c;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+/* CHAT INPUT */
+
+[data-testid="stChatInput"] {
+    border: 1px solid #8055ff;
+    border-radius: 15px;
+}
+
+[data-testid="stChatInput"] textarea {
+    color: #ffffff !important;
+}
+
+/* BUTTONS */
+
+.stButton > button {
+    background: linear-gradient(135deg, #7045e8, #9b5cff);
+    color: #ffffff;
+    border: 1px solid #8055ff;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background: #8055ff;
+    color: #ffffff;
+}
+
+/* SPINNER */
+
+.stSpinner > div {
+    border-top-color: #a78bfa !important;
+}
+
+/* DIVIDERS */
+
+hr {
+    border-color: #393052 !important;
+}
+
+/* CAPTIONS */
+
+.stCaption {
+    color: #a99fc3 !important;
+}
